@@ -5,13 +5,11 @@
   <% end %>
   </ul>
   <p>
-    <%= f.label :title %><br />
-    <%= f.text_field :title %>
-    <%= f.text_field :tag_list %>
+    <%= f.text_field :title, placeholder: "Title" %>
+    <%= f.text_field :tag_list, placeholder: "Tags" %>
   </p>
   <p>
-    <%= f.label :body %><br />
-    <%= f.text_area :body %>
+    <%= f.text_area :body, placeholder: "Body" %>
   </p>
   <p>
     <%= f.submit %>
